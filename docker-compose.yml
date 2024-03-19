@@ -45,7 +45,7 @@ services:
       - demo
 
   docker-demo-prod:
-    image: ice0nine/docker-demo:main
+    image: jocelyn59/docker-demo:main
     restart: always
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db-prod:5432/pgprod
