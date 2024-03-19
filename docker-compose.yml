@@ -31,7 +31,7 @@ services:
       - demo
 
   docker-demo-staging:
-    image: ice0nine/docker-demo:staging
+    image: jocelyn59/docker-demo:staging
     restart: always
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db-staging:5432/pgstaging
